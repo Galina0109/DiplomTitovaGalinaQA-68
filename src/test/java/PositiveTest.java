@@ -7,12 +7,11 @@ import static com.codeborne.selenide.Selenide.open;
 public class PositiveTest {
 
     @BeforeEach
-    void setup() {
-        open("http://localhost:8080");
+    void setup() {open("http://localhost:8080");
     }
 
     @Test
-    void shouldBeFilledInWithValidValuesWhenBuyingATourWithACard() {
+    void shouldBePurchaseATourUsingAValidCard() {
 
     }
 }
